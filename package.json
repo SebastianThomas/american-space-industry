@@ -1,0 +1,19 @@
+{
+  "name": "american-space-industry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianThomas/american-space-industry.git"
+  },
+  "author": "Sebastian Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianThomas/american-space-industry/issues"
+  },
+  "homepage": "https://github.com/SebastianThomas/american-space-industry#readme"
+}
