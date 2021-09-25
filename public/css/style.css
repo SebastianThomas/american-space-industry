@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  background: #cccccc80;
+
+  box-sizing: border-box;
+}
+
+.header .header-link:first-child {
+  padding-right: 0.5rem;
+}
+
+.header .header-link:nth-child(2) {
+  margin-left: 0.5rem;
+}
+
+#body {
+  position: relative;
+
+  height: calc(100vh - 4vw);
+  width: calc(100vw - 4vw);
+
+  margin: 0;
+  padding: 2vw;
+}

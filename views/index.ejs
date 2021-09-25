@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %>
+  <body id="body">
+    <script src="space-bg.min.js"></script>
+    <script type="module">
+      new SpaceBackground({
+        backgroundEl: 'space-background',
+        numStars: (window.innerWidth * window.innerHeight) / 4500,
+      });
+    </script>
+
+    <div class="space-background"></div>
+
+    <%- include('partials/header') %> <%# Display HEADER: navbar %>
+
+    <div class="content"></div>
+
+    <style>
+      .content {
+        color: #ddd;
+        position: relative;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        width: 80%;
+        border: 1px solid black;
+        padding: 3px;
+      }
+    </style>
+  </body>
+</html>

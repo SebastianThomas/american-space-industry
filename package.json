@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index -e js,ejs",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/SebastianThomas/american-space-industry/issues"
   },
-  "homepage": "https://github.com/SebastianThomas/american-space-industry#readme"
+  "homepage": "https://github.com/SebastianThomas/american-space-industry#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.0",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.12"
+  }
 }

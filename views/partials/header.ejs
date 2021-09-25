@@ -1,0 +1,83 @@
+<header>
+  <div class="header">
+    <div class="flex-container">
+      <div class="header-link">
+        <a href="/" class="header-link-btn">American Space Industry</a>
+      </div>
+      <div class="header-link">
+        <a href="/nasa" class="header-link-btn">NASA</a>
+        <div class="header-link-dropdown-content">
+          <a href="/nasa/rockets">NASA's Rockets</a>
+          <a href="/nasa/funding">NASA's Funding</a>
+          <a href="/nasa/team">NASA's Team</a>
+        </div>
+      </div>
+      <div class="header-link">
+        <a href="/spacex" class="header-link-btn">SpaceX</a>
+        <div class="header-link-dropdown-content">
+          <a href="/spacex/rockets">SpaceX's Rockets</a>
+          <a href="/spacex/team">SpaceX's Team</a>
+        </div>
+      </div>
+      <div class="header-link">
+        <a href="/firefly" class="header-link-btn">Firefly</a>
+        <div class="header-link-dropdown-content">
+          <a href="/firefly/rockets">Firefly's Rockets</a>
+          <a href="/firefly/team">Firefly's Team</a>
+        </div>
+      </div>
+      <div class="header-link">
+        <a href="/blue-origin" class="header-link-btn">Blue Origin</a>
+        <div class="header-link-dropdown-content">
+          <a href="/blue-origin/rockets">Blue Origin's Rockets</a>
+          <a href="/blue-origin/team">Blue Origin's Team</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .header-link {
+      margin: 0.7rem;
+    }
+
+    .header-link-btn {
+      color: #fff;
+      font-size: 1.3rem;
+
+      font-weight: bold;
+
+      padding: 0.75rem;
+    }
+
+    .header-link-dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+
+      transform: translateX(-25%);
+    }
+
+    .header-link-dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .header-link-content a:hover {
+      background-color: #e1e1e1;
+    }
+
+    .header-link:hover .header-link-dropdown-content {
+      display: block;
+    }
+
+    .header-link:hover .header-link-btn {
+      background-color: #333;
+    }
+  </style>
+</header>
