@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include('partials/head', {title: company.short_name}) %>
-  <body id="body"></body>
+  <%- include('partials/head', { title: company.shortName }) %>
+  <body id="body">
+    <div class="flex">
+      <h1><%- company.fullName %></h1>
+      <img src="<%- company.logoPath %>" alt="" width="250" />
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    var company = <%-stringCompany%>;
+    console.log(company)
+  </script>
+
+  <style>
+    .flex {
+      display: flex;
+      justify-content: space-around;
+    }
+  </style>
 </html>
